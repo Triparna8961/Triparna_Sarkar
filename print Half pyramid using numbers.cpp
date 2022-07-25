@@ -1,4 +1,4 @@
-include<iostream>
+#include<iostream>
 using namespace std;
 int main()
 {
@@ -7,9 +7,10 @@ int main()
   cin>>n;
   for(int i=1;i<=n;i++)
   {
+    m=0;
     for(int j=1;j<=i;j++)
     {
-      m=1;
+      m=m+1;
       cout<<m<<" ";
     }
     cout<<endl;
